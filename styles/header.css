@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: none;
+}
+
+header {
+    width: 100%;
+    background-color: #f5baba;
+
+}
+
+.logo-img {
+    padding: 0px 0;
+}
+
+
+.container-header {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    margin-left: 20px;
+}
+
+.menu {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.menu-icons {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-icons li {
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    width: 51px;
+    display: flex;
+}
+
+.menu-icons li img {
+    width: 32px;
+    height: 32px;
+}
+
+.menu-icons li .icon-heart {
+    width: 39px;
+    height: 39px;
+}
+
+.menu li a {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #45A583;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menu-icons li:hover,
+.menu li a:hover {
+    background-color: rgba(216, 117, 117, 0.5);
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    
+    .container {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container li {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .menu {
+        max-width: 100%;
+        margin: 0 auto;
+        display: none;
+    }
+    
+
+    .lista-menu {
+        display: none;
+        position: absolute;
+        top: 80%;
+        width: 40%;
+        
+      
+    }
+    
+    .container__botao:checked~.lista-menu {
+        display: block;
+    }
+
+    .lista-menu__titulo,
+    .lista-menu__item {
+        padding: 0.5em;
+        background-color: #f5baba;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+
+    .lista-menu__link {
+        text-transform: uppercase;
+    }
+
+    .container__botao {
+        display: none;
+        
+    }
+
+    .logo-imagem {
+        width: 30%; /* Ajuste a largura da imagem conforme desejado */
+        height: auto; /* Mantenha a altura proporcional */
+    }
+    
+}
