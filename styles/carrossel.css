@@ -6,6 +6,7 @@
       padding: 60px;
 
 
+
     }
 
     .card {
@@ -14,6 +15,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+
     }
 
     .card .img-produtos {
@@ -23,15 +25,20 @@
       border-radius: 10px;
       box-shadow: 5px 5px 5px #aaaa;
       text-align: center;
+
+
     }
 
     .card .descrição-produto {
+      
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 30px;
       height: 100%;
+      text-overflow: ellipsis;
+
     }
 
     .card h1 {
@@ -46,12 +53,24 @@
     }
 
     .card h2 {
+      max-width: 90%;
       font-size: 14px;
       color: #aaaa;
       text-align: center;
       display: inline-block;
       font-family: Geneva, Tahoma, sans-serif;
       font-weight: 100;
+     
+
+    }
+
+    .preço {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .star {
+      max-width: 15px;
+      display: inline;
     }
 
     .card button {
@@ -64,19 +83,15 @@
       font-size: 1rem;
       font-weight: bold;
       border-radius: 10px;
-
     }
 
     .swiper {
       max-width: 60%;
-
     }
 
     .swiper-slide {
       position: relative;
       display: inline-block;
-
-
     }
 
     .swiper-slide .card img {
@@ -100,22 +115,22 @@
 
     @media screen and (max-width: 768px) {
       .carrossel_produtos {
-        padding: 10px;
+        padding: 1.5em;
       }
 
       .card {
-        width: 100%;
-        max-width: 400px;
-        margin-bottom: 30px;
+        width: 100px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         gap: 20px;
+
       }
 
       .card .img-produtos {
-        /*background-color: #f5baba;*/
-        width: 100%;
-        height: 250px;
+        background-color: #f5baba;
+        width: 250;
+        height: 200px;
         border-radius: 10px;
         box-shadow: 5px 5px 5px #aaaa;
         text-align: center;
@@ -128,18 +143,16 @@
         align-items: center;
         gap: 30px;
         height: 100%;
+        width: 200px;
       }
-
 
       .swiper {
-        max-width: 60%;
-
+        max-width: 250px;
       }
 
-      .swiper-slide img {
-        max-width: 100%;
-        padding: 10em 10em 1em 10em;
-
+      .swiper-slide .card img {
+        width: 100%;
+        height: 80%;
       }
 
 

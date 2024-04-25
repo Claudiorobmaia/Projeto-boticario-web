@@ -43,14 +43,10 @@ a {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    height: 1.5em;
 }
 
-.transporte-img {
-    display: flex;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 20px;
-    max-width: 3%;
-}
+
 
 
 

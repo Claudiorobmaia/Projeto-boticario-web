@@ -94,6 +94,7 @@ header {
         justify-content: space-between;
         align-items: center;
         position: relative;
+        
     }
     
     .container {
@@ -102,17 +103,18 @@ header {
         justify-content: space-between;
         text-align: center;
         align-items: center;
+              
     }
     
     .container ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: -40px;
+        padding: 10px;
     }
     
     .container li {
         margin-right: 20px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .menu {
