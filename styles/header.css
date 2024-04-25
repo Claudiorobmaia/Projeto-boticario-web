@@ -40,16 +40,19 @@ header {
     max-width: 100%;
     margin: 0 auto;
     display: block;
+    
 }
 
 .menu-icons {
     display: flex;
     align-items: center;
+    
 }
 
 .menu li {
     display: inline-block;
     margin: 0 10px;
+    
 }
 
 .menu-icons li {
@@ -58,16 +61,19 @@ header {
     height: 51px;
     width: 51px;
     display: flex;
+    
 }
 
 .menu-icons li img {
     width: 32px;
     height: 32px;
+    
 }
 
 .menu-icons li .icon-heart {
     width: 39px;
     height: 39px;
+    
 }
 
 .menu li a {
@@ -77,6 +83,7 @@ header {
     color: #45A583;
     text-transform: uppercase;
     padding: 10px 15px;
+    
 }
 
 .menu-icons li:hover,
@@ -84,16 +91,18 @@ header {
     background-color: rgba(216, 117, 117, 0.5);
     border-radius: 20px;
     color: white;
+    
 }
 
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
+       
         
     }
     
@@ -110,17 +119,20 @@ header {
         list-style-type: none;
         margin: -40px;
         padding: 10px;
+        
     }
     
     .container li {
         margin-right: 20px;
         font-size: 10px;
+        
     }
 
     .menu {
         max-width: 100%;
         margin: 0 auto;
         display: none;
+        
     }
     
 
@@ -130,11 +142,13 @@ header {
         top: 80%;
         width: 40%;
         
+        
       
     }
     
     .container__botao:checked~.lista-menu {
         display: block;
+        
     }
 
     .lista-menu__titulo,
@@ -143,6 +157,7 @@ header {
         background-color: #f5baba;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 10px;
+        
     }
 
     .lista-menu__link {
