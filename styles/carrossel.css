@@ -10,27 +10,25 @@
     }
 
     .card {
-      width: 210px;
+      width: 225px;
       margin-bottom: 30px;
       display: flex;
       flex-direction: column;
       gap: 20px;
-
+      box-shadow: 5px 5px 5px #aaaa;
+      border-radius: 10px;
+      padding: 1em;
     }
 
     .card .img-produtos {
       background-color: #f5baba;
-      width: 210px;
+      width: 209px;
       height: 250px;
-      border-radius: 10px;
-      box-shadow: 5px 5px 5px #aaaa;
       text-align: center;
-
-
     }
 
     .card .descrição-produto {
-      
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -60,7 +58,7 @@
       display: inline-block;
       font-family: Geneva, Tahoma, sans-serif;
       font-weight: 100;
-     
+
 
     }
 
@@ -97,7 +95,7 @@
     .swiper-slide .card img {
       width: 100%;
       height: auto;
-      /*padding: 10em 10em 15em 10em;*/
+      
 
     }
 
@@ -119,23 +117,29 @@
       }
 
       .card {
-        width: 100px;
-        margin-bottom: 20px;
+        display: flex;
+        width: 230px;
+        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        box-shadow: 5px 5px 5px #aaaa;
+        border-radius: 10px;
+        padding: 1em;
+        
 
       }
 
       .card .img-produtos {
-        background-color: #f5baba;
+        background-color: #45A583;
         width: 250;
-        height: 200px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px #aaaa;
+        height: 200px;       
         text-align: center;
       }
 
+      .card h1 {
+        color: #ffffffaa;
+      }
       .card .descrição-produto {
         display: flex;
         flex-direction: column;
