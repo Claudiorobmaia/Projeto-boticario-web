@@ -57,7 +57,39 @@
             margin: 10px auto;
             width: 300px;
             height: 30px;
+            border-radius: 5px;
+            border: 5px
         }
+
+        .protegido {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            color: gray;
+        }
+
+        .protegido {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            color: gray;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer .protegido a {
+            margin: 0 5px;
+            color: gray;
+            text-decoration: none;
+        }
+
+
+
     </style>
 </head>
 
@@ -68,8 +100,17 @@
             <input type="text" placeholder="Login" id="login">
             <input type="password" placeholder="Senha" id="senha">
             <input class="button_login" value="Entrar" type="submit" onclick="logar(); return false">
+            <span class="protegido">Protegido por reCAPTCHA - Privacidade | Condições</span>
         </div>
     </form>
+    <footer>
+        <div class="protegido">
+        <a href="#" class="protegido">Política de Privacidade</a>
+        <a href="#" class="protegido">Relacionamento com o Cliente</a>
+        </div>    
+        
+    </footer>
+
 
     <script>
         function logar() {
