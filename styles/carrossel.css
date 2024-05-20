@@ -18,6 +18,8 @@
       box-shadow: 5px 5px 5px #aaaa;
       border-radius: 10px;
       padding: 1em;
+      min-height: 540px;
+      margin-top: 50px
     }
 
     .card .img-produtos {
@@ -86,6 +88,7 @@
       background-image: url('sua-imagem.png'); /* Define a imagem de fundo */
       background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o botão */
       background-repeat: no-repeat; /* Impede a repetição da imagem */
+      margin-top: 40px
   }
 
   .hidden {

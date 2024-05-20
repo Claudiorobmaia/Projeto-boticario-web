@@ -12,21 +12,32 @@
         }
 
         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100%;
-            height: 100%;
-            background-color: #c7c2c2;
-            
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Opcional: uma cor de fundo para destacar o formulário */
         }
 
+        .borda {
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #cfcfcfe3; /* Adiciona uma borda ao redor do formulário */
+         
+        }
+
+        
+
         form {
-            margin: auto;
             text-align: center;
             padding: 50px;
-            background-image: url('/img/bannertop.jpg'); 
-            background-size: auto; 
-            background-repeat: no-repeat;  /* Não repete a imagem */
-            background-position: center;  /* Centraliza a imagem */
-            opacity: 0.8;  /* Ajuste a opacidade conforme necessário */
+            
+         
+          
            
         }
 
@@ -37,77 +48,22 @@
             height: 30px;
         }
 
-
+        
     </style>
 </head>
 
-
 <body>
-
-    <!----inicio =header-->
-    <header class="cabeçalho">
-        <div class="container-header">
-            <div class="container-logo">
-                <div class="container">
-                    <!-- inicio menu hamburguer -->
-                    <input type="checkbox" id="menu" class="container__botao">
-                    <label for="menu">
-                        <span class="cabeçalho_menu-hamburguer"></span>
-                        <img src="img/menu.png" alt="cabeçalho__menu-hamburguer">
-                    </label>
-                    <ul class="lista-menu">
-                        <li class="lista-menu__titulo">
-                            <a href="#" class="lista-menu__link">Home</a>
-                        </li>
-                        <li class="lista-menu__item">
-                            <a href="#" class="lista-menu__link">Quem Somos</a>
-                        </li>
-                        <li class="lista-menu__item">
-                            <a href="#" class="lista-menu__link">Produtos</a>
-                        </li>
-                        <li class="lista-menu__item">
-                            <a href="#" class="lista-menu__link">Contatos</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="logo-imagem">
-                    <img class="logo-topo" src="/img/logo.png" alt="Logo">
-                </div>
-                <div class="logo-texto"></div> <!-- Correção: movido para dentro da div container-logo -->
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Contatos</a></li>
-                </ul>
-            </div>
-            <div class="menu">
-                <ul class="menu-icons">
-                    <li><img class="icon-heart" src="img/Favoritos.svg" alt="Favoritos"></li>
-                    <li><img src="img/Sacola.svg" alt="Sacola"></li>
-                    <li><a href="login.html"><img src="img/Usuario.svg" alt="Usuário"></a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <!--- fim header-->
-
     <form>
-
-        <h3>Login</h3>
-        <input type="text" placeholder="Login" id="login">
-        <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" onclick="logar(); return false">
-
+        <div class="borda">
+            <img class="logo-topo" src="/img/logo.png" alt="Logo">
+            <input type="text" placeholder="Login" id="login">
+            <input type="password" placeholder="Senha" id="senha">
+            <input type="submit" onclick="logar(); return false">
+        </div>    
     </form>
 
-
     <script>
-
         function logar(){
-
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
@@ -117,86 +73,7 @@
             }else {
                 alert('Usuário ou senha incorretos!');
             }
-            
-
         }
     </script>
-<!-- Início rodapé -->
-<footer>
-    <footer class="rodapé">
-        <h2 class="rodapé__titulo">Grupo Bella Beleza</h2>
-        <ul class="lista-rodapé">
-            <li class="lista-rodapé__titulo">Dúvidas</li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/perguntando.png" alt="Logo Pergunta">
-                <a href="#" class="lista-rodapé__link">Perguntas Frequentes</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/forma.png" alt="Logo forma de pagamento">
-                <a href="#" class="lista-rodapé__link">Formas de pagamento</a>
-            </li>
-        </ul>
-        <ul class="lista-rodapé">
-            <li class="lista-rodapé__titulo">Intitucional</li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/companhia.png" alt="logo companhia">
-                <a href="#" class="lista-rodapé__link">Grupo Bella Beleza</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/apoio-suporte.png" alt="Logo da Apoio/suporte">
-                <a href="#" class="lista-rodapé__link">Trabalhe Conosco</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/blogue.png" alt="Logo da blogue">
-                <a href="#" class="lista-rodapé__link">Blog</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/conversacao.png" alt="Logo da conversacao">
-                <a href="#" class="lista-rodapé__link">Onde comprar</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/de-dinheiro.png" alt="Logo  de-dinheiro">
-                <a href="#" class="lista-rodapé__link">Cashback</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/promocoes.png" alt="Logo da promocoes">
-                <a href="#" class="lista-rodapé__link">Clube Bella</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/historia.png" alt="Logo da historia">
-                <a href="#" class="lista-rodapé__link">Nossa História</a>
-            </li>
-        </ul>
-        <ul class="lista-rodapé">
-            <li class="lista-rodapé__titulo">Nós e Você</li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/atendimento.png" alt="Logo da atendimento">
-                <a href="#" class="lista-rodapé__link">Atendimento</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/whatsapp.png" alt="Logo da whatsapp">
-                <a href="#" class="lista-rodapé__link">Compre pelo Whatsapp</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/leve-embora.png" alt="Logo da leve-embora">
-                <a href="#" class="lista-rodapé__link">Pontos de retirada</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/entrega-gratis.png" alt="Logo da entrega-gratis">
-                <a href="#" class="lista-rodapé__link">Frete Grátis</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/contrato.png" alt="Logo da contrato">
-                <a href="#" class="lista-rodapé__link">Termos de Uso</a>
-            </li>
-            <li class="lista-rodapé__item">
-                <img class="rodapé-img" src="img/politica.png" alt="Logo da politica">
-                <a href="#" class="lista-rodapé__link">Política de Privacidade</a>
-            </li>
-        </ul>
-    </footer>
-    <!-- Fim rodapé cabeçalho -->
-
-
 </body>
 </html>
