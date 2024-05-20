@@ -80,8 +80,23 @@
       color: #fff;
       font-size: 1rem;
       font-weight: bold;
-      border-radius: 10px;
-    }
+      border-radius: 3px;
+      box-shadow: 3px 3px 3px #2a724ee3;
+      width: auto; /* Tamanho do botão é determinado pelo tamanho do texto */
+      background-image: url('sua-imagem.png'); /* Define a imagem de fundo */
+      background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o botão */
+      background-repeat: no-repeat; /* Impede a repetição da imagem */
+  }
+
+  .hidden {
+    display: none;
+}
+    
+
+    button {
+      width: auto; /* Tamanho do botão é determinado pelo tamanho do texto */
+  }
+  
 
     .swiper {
       max-width: 60%;

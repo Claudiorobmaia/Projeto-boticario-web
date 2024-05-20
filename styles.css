@@ -10,6 +10,8 @@ body {
 }
 
 
+
+
 /* banner.css */
 
 .banner_top {
@@ -25,6 +27,7 @@ body {
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
     color: #45A583;

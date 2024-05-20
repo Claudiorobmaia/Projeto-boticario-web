@@ -95,7 +95,47 @@ header {
     background-color: rgba(216, 117, 117, 0.5);
     border-radius: 20px;
     color: white;
+    
 }
+
+
+/*
+.button {
+    padding: 20px 30px;
+    background-color: #282828;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.button span {
+    font-size: 20px;
+    position: relative;
+    z-index: 999999;
+}
+
+.button::before {
+    content: '';
+    background-color: rgb(247, 81, 5);
+    width: 0;
+    height: 0;
+   
+    position: absolute;
+    top: var(--eixoY);
+    left: var(--eixoX);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    transition: width .5s, height .5s;
+
+}
+
+.button:hover::before {
+    width: 100px;
+    height: 100px;
+}
+*/
 
 @media screen and (max-width: 1280px) {
     .container-header {
@@ -109,7 +149,8 @@ header {
 
     .menu li {
         display: inline-block;
-        margin: 0 1px;
+        margin: 0 1px;   
+        
 
     }
 
@@ -121,6 +162,8 @@ header {
         text-transform: uppercase;
         padding: 10px 10px;
     }
+
+    
 
     .menu-icons li .icon-heart {
         width: 30px;
@@ -152,7 +195,7 @@ header {
 
 @media screen and (max-width: 768px) {
     header {
-        display: flex;
+        display: flex;                                  
         justify-content: space-between;
         align-items: center;
         position: relative;
@@ -188,11 +231,34 @@ header {
     .menu {
         max-width: 100%;
         margin: 0 auto;
-        display: none;
-
     }
 
+    .menu li {
+        display: inline-block;
+        margin: 0 1px;
+        display: none;
+    }
 
+    
+    .menu li a {
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: #45A583;
+        text-transform: uppercase;
+        padding: 10px 10px;
+    }  
+ 
+    .menu-icons li {
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 40px;
+        display: flex;
+    
+    }
+
+    
     .lista-menu {
         display: none;
         position: absolute;
@@ -207,8 +273,9 @@ header {
         color: #45A583;
         text-transform: uppercase;
         padding: 10px 15px;
-    
     }
+
+    
 
     .container__botao:checked~.lista-menu {
         display: block;
