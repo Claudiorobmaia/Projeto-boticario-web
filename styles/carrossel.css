@@ -84,10 +84,10 @@
       font-weight: bold;
       border-radius: 3px;
       box-shadow: 3px 3px 3px #2a724ee3;
-      width: auto; /* Tamanho do botão é determinado pelo tamanho do texto */
-      background-image: url('sua-imagem.png'); /* Define a imagem de fundo */
-      background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-      background-repeat: no-repeat; /* Impede a repetição da imagem */
+      width: auto; 
+      background-image: url('sua-imagem.png'); 
+      background-size: cover; 
+      background-repeat: no-repeat; 
       margin-top: 40px;
       cursor: pointer;
   }
@@ -98,7 +98,7 @@
     
 
     button {
-      width: auto; /* Tamanho do botão é determinado pelo tamanho do texto */
+      width: auto; 
   }
   
 
