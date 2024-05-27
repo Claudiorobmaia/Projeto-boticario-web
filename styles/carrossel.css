@@ -88,7 +88,8 @@
       background-image: url('sua-imagem.png'); /* Define a imagem de fundo */
       background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o botão */
       background-repeat: no-repeat; /* Impede a repetição da imagem */
-      margin-top: 40px
+      margin-top: 40px;
+      cursor: pointer;
   }
 
   .hidden {

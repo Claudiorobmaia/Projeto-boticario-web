@@ -36,7 +36,7 @@
         }
 
         .logo-topo {
-            border-radius: 10px;
+            border-radius: 4px;
         }
 
 
@@ -124,11 +124,12 @@
 
             if (login == "admin" && senha == "admin") {
                 alert('Sucesso');
-                location.href = "index.html";
+                window.open("index.html", "_blank");
             } else {
                 alert('Usuário ou senha incorretos!');
             }
         }
+        
     </script>
 </body>
 
