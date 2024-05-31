@@ -1,84 +1,20 @@
+// Seleciona todos os botões com a classe 'buyButton'
+const buttons = document.querySelectorAll('#buyButton');
 
-//pega o elemento byButton e cria um evento
-document.getElementById('buyButton-1').addEventListener('click', function() {
-    window.open('login.html', '_blank'); // abrir em outra janela
+// Adiciona um evento de clique a cada botão
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        window.open('login.html', '_blank'); // Substitua pela URL desejada
+    });
 });
 
-// Função para clicar  no botão
+// Função para clicar programaticamente no primeiro botão
 function clickButton() {
-    document.getElementById('buyButton-1').click();
+    const button = document.querySelector('buyButton'); // Seleciona o primeiro botão
+    if (button) {
+        button.click();
+    }
 }
 
-//chama a função para clicar no botão
-clickButton();
-
-//botao 2
-
-document.getElementById('buyButton-2').addEventListener('click', function() {
-    window.open('login.html', '_blank'); 
-});
-
-
-function clickButton() {
-    document.getElementById('buyButton-2').click();
-}
-
-
-clickButton();
-
-
-// botao 3
-
-document.getElementById('buyButton-3').addEventListener('click', function() {
-    window.open('login.html', '_blank'); 
-});
-
-
-function clickButton() {
-    document.getElementById('buyButton-3').click();
-}
-
-
-clickButton();
-
-// botao 4
-
-document.getElementById('buyButton-4').addEventListener('click', function() {
-    window.open('login.html', '_blank'); 
-});
-
-
-function clickButton() {
-    document.getElementById('buyButton-4').click();
-}
-
-
-clickButton();
-
-// botao 5
-
-document.getElementById('buyButton-5').addEventListener('click', function() {
-    window.open('login.html', '_blank'); 
-});
-
-
-function clickButton() {
-    document.getElementById('buyButton-5').click();
-}
-
-
-clickButton();
-
-// botao 6 
-
-document.getElementById('buyButton-6').addEventListener('click', function() {
-    window.open('login.html', '_blank'); 
-});
-
-
-function clickButton() {
-    document.getElementById('buyButton-6').click();
-}
-
-
+// Exemplo de como chamar a função para clicar no botão
 clickButton();

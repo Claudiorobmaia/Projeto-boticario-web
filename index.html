@@ -9,6 +9,7 @@
                 <link rel="stylesheet" href="styles.css">
                 <link rel="stylesheet" href="styles/banner.css">
                 <link rel="stylesheet" href="styles/carrossel.css">
+                <link rel="stylesheet" href="styles/contador.css">
             </head>
 
             <body>
@@ -78,7 +79,7 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <div class="card" id="card-1">
+                                    <div class="card" id="card">
                                         <!--01---------------------------->
                                         <div class="img-produtos"> <img src="img/nativaspa.webp" alt="Nativa Spa">
                                             <h1>Nativa SPA Ameixa Negra</h1>
@@ -93,18 +94,36 @@
                                             </div>
                                             <span class="preço">R$ 10,00</span>
 
-                                            <div id="productDescription-1">
+                                            <div id="productDescription">
                                                 <h2>O Óleo Multifuncional Glorioso Nativa SPA Ameixa entrega um produto
                                                     versátil para sua rotina, com seu tratamento poderoso aliado a uma
                                                     explosão de fragrância.</h2>
                                             </div>
-                                            <button id="buyButton-1" class="hidden">Adicionar ao Carrinho</button>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus1" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value1">
+                                                        0
+                                                    </span>
+                                                    <button id="minus1" class="count-button">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <button id="reset1">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card" id="card-2">
+                                    <div class="card" id="card">
                                         <!--02--------------------------------->
                                         <div class="img-produtos"><img src="img/nativaspa2.webp" alt="Nativa Spa">
                                             <h1>Nativa SPA Qnoa</h1>
@@ -120,50 +139,86 @@
 
                                             <span class="preço">R$ 10,00</span>
 
-                                            <div id="productDescription-2">
+                                            <div id="productDescription">
                                                 <h2>O Óleo Multifuncional Glorioso Nativa SPA Quinoa entrega um produto
                                                     versátil para
                                                     sua
                                                     rotina, com seu tratamento poderoso aliado a uma explosão de
                                                     fragrância.</h2>
                                             </div>
-                                            <button id="buyButton-2" class="hidden">Adicionar ao Carrinho</button>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus2" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value2">
+                                                        0
+                                                    </span>
+                                                    <button id="minus2" class="count-button">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <button id="reset2">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    
-                                        <!--03------------------------------------->
-                                        <div class="card" id="card-3">
+
+                                    <!--03------------------------------------->
+                                    <div class="card" id="card-3">
                                         <div class="img-produtos"><img src="img/oleoacetinado.webp" alt="Nativa Spa">
                                             <h1>Óleo Acetinado Lily</h1>
                                         </div>
                                         <div class="descrição-produto">
-                                        <div>
+                                            <div>
                                                 <img class="star" src="img/star.png">
                                                 <img class="star" src="img/star.png">
                                                 <img class="star" src="img/star.png">
                                                 <img class="star" src="img/star.png">
                                                 <img class="star" src="img/star.png">
-                                            </div>    
+                                            </div>
                                             <span class="preço">R$ 10,00</span>
                                             <div id="productDescription-3">
-                                            <h2>
-                                                O Óleo Acetinado Multifuncional Corpo e Cabelo Lily transforma seu
-                                                momento de autocuidado em um ritual.
-                                            </h2>
+                                                <h2>
+                                                    O Óleo Acetinado Multifuncional Corpo e Cabelo Lily transforma seu
+                                                    momento de autocuidado em um ritual.
+                                                </h2>
+                                            </div>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus3" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value3">
+                                                        0
+                                                    </span>
+                                                    <button id="minus3" class="count-button">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <button id="reset3">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
                                         </div>
-                                        <button id="buyButton-3" class="hidden">Adicionar ao Carrinho</button>
-                                        </div>  
-                                        </div>
-                                </div>           
-                                        
-                                
+                                    </div>
+                                </div>
+
+
                                 <div class="swiper-slide">
-                                    <!--04------------------------------------> 
+                                    <!--04------------------------------------>
                                     <div class="card" id="card-4">
-                                    <div class="img-produtos"><img src="img/oleodesodorante.webp" alt="Nativa Spa">
+                                        <div class="img-produtos"><img src="img/oleodesodorante.webp" alt="Nativa Spa">
                                             <h1>Hidratante Nativa SPA Quinoa & Amêndoas</h1>
                                         </div>
                                         <div class="descrição-produto">
@@ -175,27 +230,46 @@
                                                 <img class="star" src="img/star.png">
                                             </div>
                                             <span class="preço">R$ 10,00</span>
-                                            
+
                                             <div id="productDescription-4">
-                                                
-                                            <h2>O Óleo Desodorante Hidratante Corporal Nativa SPA Quinoa & Amêndoas é o
-                                                produto que
-                                                não
-                                                pode faltar em sua nécessaire de cuidados pessoais.
-                                            </h2>    
+
+                                                <h2>O Óleo Desodorante Hidratante Corporal Nativa SPA Quinoa & Amêndoas
+                                                    é o
+                                                    produto que
+                                                    não
+                                                    pode faltar em sua nécessaire de cuidados pessoais.
+                                                </h2>
                                             </div>
-                                            <button id="buyButton-4" class="hidden">Adicionar ao Carrinho</button>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus4" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value4">
+                                                        0
+                                                    </span>
+                                                    <button id="minus4" class="count-button">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <button id="reset4">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    
-                                        <!--05----------------------------->
-                                        <div class="card" id="card-5">
+
+                                    <!--05----------------------------->
+                                    <div class="card" id="card-5">
                                         <div class="img-produtos"><img src="img/oleoemcreme.webp" alt="Nativa Spa">
                                             <h1>Óleo Em Creme Hidratante Corporal Nativa Spa Lilac</h1>
                                         </div>
-                                            <div class="descrição-produto">
+                                        <div class="descrição-produto">
                                             <div>
                                                 <img class="star" src="img/star.png">
                                                 <img class="star" src="img/star.png">
@@ -205,46 +279,84 @@
                                             </div>
                                             <span class="preço">R$ 10,00</span>
                                             <div id="productDescription-5">
-                                            <h2>O Óleo Em Creme Hidratante Corporal Nativa Spa Lilac cuida da sua pele
-                                                com ativos
-                                                que
-                                                auxiliam na regeneração da barreira cutânea e repõem em até 2x a
-                                                hidratação.
+                                                <h2>O Óleo Em Creme Hidratante Corporal Nativa Spa Lilac cuida da sua
+                                                    pele
+                                                    com ativos
+                                                    que
+                                                    auxiliam na regeneração da barreira cutânea e repõem em até 2x a
+                                                    hidratação.
 
-                                            </h2>
+                                                </h2>
                                             </div>
-                                            <button id="buyButton-5" class="hidden">Adicionar ao Carrinho</button>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus5" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value5">
+                                                        0
+                                                    </span>
+                                                    <button id="minus5" class="count-button">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <button id="reset5">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
 
-                                    
-                                        <!--06--------------------------->
 
-                                        <div class="card" id="card-6">
-                                            <div class="img-produtos"><img src="img/oleohidratante.webp" alt="Nativa Spa">
-                                                <h1>Óleo Em Creme Hidratante Corporal Nativa Spa Lilac</h1>
+                                    <!--06--------------------------->
+
+                                    <div class="card" id="card-6">
+                                        <div class="img-produtos"><img src="img/oleohidratante.webp" alt="Nativa Spa">
+                                            <h1>Óleo Em Creme Hidratante Corporal Nativa Spa Lilac</h1>
+                                        </div>
+                                        <div class="descrição-produto">
+                                            <div>
+                                                <img class="star" src="img/star.png">
+                                                <img class="star" src="img/star.png">
+                                                <img class="star" src="img/star.png">
+                                                <img class="star" src="img/star.png">
+                                                <img class="star" src="img/star.png">
                                             </div>
-                                                <div class="descrição-produto">
-                                                <div>
-                                                    <img class="star" src="img/star.png">
-                                                    <img class="star" src="img/star.png">
-                                                    <img class="star" src="img/star.png">
-                                                    <img class="star" src="img/star.png">
-                                                    <img class="star" src="img/star.png">
-                                                </div>
-                                                <span class="preço">R$ 10,00</span>
-                                                <div id="productDescription-6">
+                                            <span class="preço">R$ 10,00</span>
+                                            <div id="productDescription-6">
                                                 <h2>O item que não pode faltar em sua rotina de cuidados com a pele.
-                                                    Sua fórmula com extratos naturais de Ameixa, óleo 100% vegetal, extrato
+                                                    Sua fórmula com extratos naturais de Ameixa, óleo 100% vegetal,
+                                                    extrato
                                                     de girassol
                                                     e gotas de Quinoa.
-    
+
                                                 </h2>
+                                            </div>
+                                            <!--contador-->
+                                            <div id="counter">
+                                                <div class="estilo">
+                                                    <button id="plus6" class="count-button">
+                                                        +
+                                                    </button>
+                                                    <span id="value6">
+                                                        0
+                                                    </span>
+                                                    <button id="minus6" class="count-button">
+                                                        -
+                                                    </button>
                                                 </div>
-                                                <button id="buyButton-6" class="hidden">Adicionar ao Carrinho</button>
-                                
+                                                <button id="reset6">
+                                                    Resetar
+                                                </button>
+                                            </div>
+                                            <!--fim contador-->
+                                            <button id="buyButton">Adicionar ao Carrinho</button>
+
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +382,7 @@
                     </div>
                 </section>
                 </section>
-                    <!-- Início rodapé -->
+                <!-- Início rodapé -->
                 <footer>
                     <footer class="rodapé">
                         <h2 class="rodapé__titulo">Grupo Bella Beleza</h2>
@@ -349,7 +461,8 @@
                     <script src="efeitobotao.js"></script>
                     <script src="efeitobotaomenu.js"></script>
                     <script src="adicionacarrinho.js"></script>
-                    
+                    <script src="contador.js"></script>
+
                     <script>
                         const swiper = new Swiper('.swiper', {
                             spaceBetween: 15,
