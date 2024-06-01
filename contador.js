@@ -11,7 +11,7 @@ const setupCounter = (valueId, plusButtonId, minusButtonId, resetButtonId) => {
     value.textContent = count;
   };
 
-  // Inicializa a interface
+  
   updateValue();
   minusButton.disabled = true; 
 
