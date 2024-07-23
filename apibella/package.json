@@ -1,0 +1,14 @@
+{
+  "name": "apibella",
+  "version": "1.0.0",
+  "description": "apibella api desenvolvida em nodejs com mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudio Maia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
