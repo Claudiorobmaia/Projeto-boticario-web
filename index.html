@@ -31,7 +31,7 @@
                                         <a href="#" class="lista-menu__link">Quem Somos</a>
                                     </li>
                                     <li class="lista-menu__item">
-                                        <a href="#" class="lista-menu__link">Produtos</a>
+                                        <a href="http://localhost:5173/" class="lista-menu__link">Produtos</a>
                                     </li>
                                     <li class="lista-menu__item">
                                         <a href="#" class="lista-menu__link">Contatos</a>
@@ -82,7 +82,7 @@
                                     <div class="card" id="card">
                                         <!--01---------------------------->
                                         <div class="img-produtos"> <img src="img/nativaspa.webp" alt="Nativa Spa">
-                                            <h1>Nativa SPA Ameixa Negra</h1>
+                                            <h1 id="nome"></h1>
                                         </div>
                                         <div class="descrição-produto">
                                             <div>
@@ -94,10 +94,8 @@
                                             </div>
                                             <span class="preço">R$ 10,00</span>
 
-                                            <div id="productDescription">
-                                                <h2>O Óleo Multifuncional Glorioso Nativa SPA Ameixa entrega um produto
-                                                    versátil para sua rotina, com seu tratamento poderoso aliado a uma
-                                                    explosão de fragrância.</h2>
+                                            <div >
+                                                <h2 id="descricao"></h2>
                                             </div>
                                             <!--contador-->
                                             <div id="counter">
@@ -462,6 +460,7 @@
                     <script src="efeitobotaomenu.js"></script>
                     <script src="adicionacarrinho.js"></script>
                     <script src="contador.js"></script>
+                    <script src="script.js"></script>
 
                     <script>
                         const swiper = new Swiper('.swiper', {
