@@ -4,9 +4,6 @@
       font-weight: 70;
       color: rgb(173, 192, 186);
       padding: 60px;
-
-
-
     }
 
     .card {
@@ -15,7 +12,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-      box-shadow: 5px 5px 5px #aaaa;
+      border: 1px solid #ccc;
       border-radius: 10px;
       padding: 1em;
       min-height: 750px;
@@ -23,8 +20,7 @@
     }
 
     .card .img-produtos {
-      background-color: #f5baba;
-      width: 209px;
+      width: auto;
       height: 250px;
       text-align: center;
     }
@@ -38,14 +34,15 @@
       gap: 30px;
       height: 100%;
       text-overflow: ellipsis;
-      
+
+
 
     }
 
     .card h1 {
-      font-size: 15px;
+      font-size: 14px;
       text-align: center;
-      color: #0a6b49;
+      color: #7d8583;
       font-family: Geneva, Tahoma, sans-serif;
       font-weight: 100;
       display: inline-block;
@@ -55,18 +52,22 @@
 
     .card h2 {
       max-width: 90%;
-      font-size: 14px;
-      color: #464545aa;
+      font-size: 15px;
+      color: #0b6839aa;
       text-align: center;
       display: inline-block;
       font-family: Geneva, Tahoma, sans-serif;
-      font-weight: 100;
+      font-weight: 200;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 3px;
 
 
     }
 
     .preço {
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
     }
 
     .star {
@@ -85,24 +86,24 @@
       font-weight: 100;
       border-radius: 3px;
       box-shadow: 3px 3px 3px #2a724ee3;
-      width: auto; 
-      background-image: url('sua-imagem.png'); 
-      background-size: cover; 
-      background-repeat: no-repeat; 
+      width: auto;
+      background-image: url('sua-imagem.png');
+      background-size: cover;
+      background-repeat: no-repeat;
       margin-top: 40px;
       cursor: pointer;
       align-items: center;
-  }
+    }
 
-  .hidden {
-    display: none;
-}
-    
+    .hidden {
+      display: none;
+    }
+
 
     button {
-      width: auto; 
-  }
-  
+      width: auto;
+    }
+
 
     .swiper {
       max-width: 60%;
@@ -116,7 +117,7 @@
     .swiper-slide .card img {
       width: 100%;
       height: auto;
-      
+
 
     }
 
@@ -147,20 +148,20 @@
         box-shadow: 5px 5px 5px #aaaa;
         border-radius: 10px;
         padding: 1em;
-        
+
 
       }
 
       .card .img-produtos {
-        background-color: #45A583;
         width: 250;
-        height: 200px;       
+        height: 200px;
         text-align: center;
       }
 
       .card h1 {
-        color: #ffffffaa;
+        color: #272424aa;
       }
+
       .card .descrição-produto {
         display: flex;
         flex-direction: column;

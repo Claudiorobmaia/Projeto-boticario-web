@@ -33,23 +33,20 @@
 
 
 .banner__pesquisa {
-    background-color: #f5baba;  
-    border-radius: 24px;
+    border-radius: 5px;
     padding: 1em;
     width: 40%;
-    outline: none; /* Removendo a borda de foco padrão */
+    outline: non /* Removendo a borda de foco padrão */
 }
 
 .banner__pesquisa::placeholder {
     font-size: 14px;
-    font-weight: 400;
     text-align: center;
-    color: #45A583;
-    background: url("../img/lupa.svg") no-repeat;
+    justify-content: space-around;
     background-position: 1em;
 }
 
 .banner__pesquisa:focus {
     border-color: #45A583; /* Cor da borda quando em foco */
-  
 }
+

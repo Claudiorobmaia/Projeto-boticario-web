@@ -39,8 +39,8 @@
 
 
 .banner-make img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .lista-rodapé__titulo {
@@ -60,13 +60,13 @@
         .lista-rodapé__item {
             display: flex;
             align-items: center;
-            margin: 0.3em 0; /* Reduzi o valor da margem de 0.6em para 0.3em */
+            margin: 0.3em 0; 
         }
     
         .lista-rodapé__link {
          
             text-decoration: none;
-            margin-left: 0.3em; /* Reduzi o valor da margem de 0.6em para 0.3em */
+            margin-left: 0.3em; 
         }
     
         .lista-rodapé__titulo {
@@ -97,13 +97,13 @@
     .lista-rodapé__item {
         display: flex;
         align-items: center;
-        margin: 0.3em 0; /* Reduzi o valor da margem de 0.6em para 0.3em */
+        margin: 0.3em 0; 
     }
 
     .lista-rodapé__link {
 
         text-decoration: none;
-        margin-left: 0.3em; /* Reduzi o valor da margem de 0.6em para 0.3em */
+        margin-left: 0.3em; 
     }
 
     .lista-rodapé__titulo {
