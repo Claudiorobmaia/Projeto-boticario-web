@@ -1,5 +1,5 @@
 function carregar() {
-    fetch('http://localhost:3000/produtos/')
+    fetch('https://bella-beleza-api.vercel.app/produtos')
         .then(response => response.json())
         .then(produtos => {
             const container = document.querySelector(".swiper-wrapper");
